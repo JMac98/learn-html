@@ -38,4 +38,13 @@ We can use regular html for images
 
 <img src="https://ichef.bbci.co.uk/images/ic/1280xn/p07pgjlp.jpg" width="250" />
 
-<u>We can also underline</u>
+We can also <span style="text-decoration:underline">underline</span> text XXX
+
+### Code highlighting
+
+```
+int x = 1;
+```
+
+    This is TABBED in once
+    It can also be used for code
