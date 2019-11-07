@@ -27,6 +27,13 @@ Sign up with Netlify.com
 *italics*
 
 **bold**
+
 *** bold italic***
 
-This is a `highlight`
+This is a `highlight` for individual words / blocks of text
+
+> This can be used to quote a whole paragraph ('blockquote')
+
+We can use regular html for images 
+
+<img src="https://ichef.bbci.co.uk/images/ic/1280xn/p07pgjlp.jpg" width="150" />
