@@ -36,4 +36,4 @@ This is a `highlight` for individual words / blocks of text
 
 We can use regular html for images 
 
-<img src="https://ichef.bbci.co.uk/images/ic/1280xn/p07pgjlp.jpg" width="150" />
+<img src="https://ichef.bbci.co.uk/images/ic/1280xn/p07pgjlp.jpg" width="250" />
