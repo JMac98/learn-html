@@ -38,7 +38,7 @@ We can use regular html for images
 
 <img src="https://ichef.bbci.co.uk/images/ic/1280xn/p07pgjlp.jpg" width="250" />
 
-We can also <span style="text-decoration:underline">underline</span> text XXX
+We can also <ins>underline</ins> text
 
 ### Code highlighting
 
