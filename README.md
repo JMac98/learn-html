@@ -48,3 +48,36 @@ int x = 1;
 
     This is TABBED in once
     It can also be used for code
+
+```java
+int x = 1
+```
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello!</title> 
+        <style>
+            /* CSS goes here */
+        </style>
+    </head>
+
+<body>
+    <nav>
+        
+    </nav>
+    <h1>Hello world web page</h1>
+    <p>Sample web page</p>
+    <script>
+        alert('this is a page');
+        function runThisSometimes(){
+            alert('run this sometimes');
+        }
+    </script>
+    <button onclick="runThisSometimes()">Run this sometimes</button>
+</body>
+
+</html>
+```
+
