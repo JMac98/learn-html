@@ -42,6 +42,8 @@ We can also <span style="text-decoration:underline">underline</span> text XXX
 
 ### Code highlighting
 
+## Default code format
+
 ```
 int x = 1;
 ```
@@ -49,9 +51,13 @@ int x = 1;
     This is TABBED in once
     It can also be used for code
 
+## Java format
+
 ```java
 int x = 1
 ```
+
+## HTML format
 
 ```html
 <!DOCTYPE html>
