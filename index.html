@@ -9,17 +9,50 @@
 
 <body>
     <nav>
-        
+
     </nav>
     <h1>Hello world web page</h1>
     <p>Sample web page</p>
     <script>
-        alert('this is a page');
-        function runThisSometimes(){
-            alert('run this sometimes');
+        // variables outside a function (javaScript term) has a global scope
+        var thisIsAGlobalVariable = 21;
+        var myArray = [];
+        function pushToArray(){
+            //alert('run this sometimes');
+            thisIsAGlobalVariable = 33;
+            console.log(thisIsAGlobalVariable += 10);
+            document.getElementById("putDataHere").innerText = thisIsAGlobalVariable;
+
+            myArray.push(thisIsAGlobalVariable);
+            console.log(myArray);
         }
+
+        function popFromArray(){
+            myArray.pop();
+            console.log(myArray);
+        }
+        console.log(thisIsAGlobalVariable);
     </script>
-    <button onclick="runThisSometimes()">Run this sometimes</button>
+    <button onclick="pushToArray()">Push element to an array</button>
+    <button onclick="popFromArray()">Rop element from array</button>
+
+    <ul>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ul>
+
+    <ol>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ol>
+
+    <div id="putDataHere">
+        Some data goes here
+
+    </div>
+
 </body>
 
 </html>
